@@ -1,0 +1,225 @@
+#series-bk {
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+#series-showing {
+    font-size: 14px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#series-rooms {
+    display: none;
+}
+
+.series-header {
+    color: #4b4b4b;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 14px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.series-why {
+    color: #4b4b4b;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    width: 80%;
+}
+
+.series-container {
+    display: inline-block;
+    margin: 23px 19px;
+    min-height: 142px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    width: 140px;
+}
+
+.series-square {
+    display: inline-block;
+    border: 0;
+    border-radius: 17px;
+    height: 113px;
+    margin: 15px 10px 0;
+    overflow: visible;
+    position: relative;
+    width: 113px;
+}
+
+.series-icon {
+    height: 129px;
+    left: -11px;
+    position: absolute;
+    top: -13px;
+    width: 135px;
+}
+
+.series-title {
+    color: #4b4b4b;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+.series-desc {
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.series-diff {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.series-desc-clean {
+    color: #505050;
+    font-size: 15px;
+    /* font-weight: 700; */
+    line-height: 21px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    text-align: left;
+}
+
+.series-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.series-list-item {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.series-list-item:after {
+    background: rgba(42, 42, 42, 0.4);
+    bottom: -1.75rem;
+    content: "";
+    display: block;
+    height: 1.75rem;
+    left: 40px;
+    margin-top: 1.75rem;
+    position: absolute;
+    width: 5px;
+}
+
+.series-list-item:last-child:after{
+    content: none;
+}
+
+.series-list-item-content:hover > .series-item-incompelte {
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.series-list-item-content {
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgba(42, 42, 42, 0.4), 0 3px 4px 0 rgba(42, 42, 42, 0.2);
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+}
+
+.series-list-item:last-child .series-list-item-content {
+    margin-bottom: 0rem;
+}
+
+.series-list-item .series-list-item-content > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.series-avatar {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 4em;
+    height: 4em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 3px solid var(--hacker-green);
+    background-color: #fff;  /*var(--main-color);*/
+    box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.series-item-incompelte {
+    filter: grayscale(100%);
+    color: #999;
+}
+
+.series-details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+}
+
+/* Center modal vertically */
+/* #seriesModal .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;
+} */
+
+.overpass {
+    background-color: #1167be;
+}
+
+.pentestingtools {
+    background-color: #b54832;
+}
+
+.windcorp {
+    background-color: #2b150f;
+}
+
+.breakingwindows {
+    background-color: #1b2254;
+}
+
+.wonderland {
+    background-color: #921c21;
+}
+
+.newyear {
+    background-color: #5a4c6f;
+}
+
+.starters {
+    background-color: #1d4622;
+}
+
+.investigations {
+    background-color: #5d0405;
+}
